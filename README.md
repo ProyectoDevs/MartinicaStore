@@ -11,4 +11,4 @@
 <br><h4>Ana Julieta Torres Roldán</h4>(https://github.com/Jules9004)  
 <br><h4>Alvaro Gómez Barragán</h4>(https://github.com/AlvaroG1016) 
 <br><br>
-       | :-----: | :---: | :-----: |
+      | :-----: | :---: | :-----: |
