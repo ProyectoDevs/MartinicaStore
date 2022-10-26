@@ -28,7 +28,7 @@ const cart = () => {
 
             </Card>       
             <Card className='tarjeta'>
-                <Card.Header className='headerCart'>TU CARRITO () </Card.Header>
+                <Card.Header className='headerCart'>TU CARRITO() </Card.Header>
                 <Card.Body>
 
                 </Card.Body>
