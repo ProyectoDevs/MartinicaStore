@@ -17,7 +17,7 @@ const cart = () => {
             <hr className='linea'/>
 
             <Button className='btnCompra' variant="primary" size="lg">
-                Finalizar Compra
+                Finaliza Compra
             </Button>{' '}
         </div>
         
