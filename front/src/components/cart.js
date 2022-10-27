@@ -30,7 +30,7 @@ const cart = () => {
             <Card className='tarjeta'>
                 <Card.Header className='headerCart'>TU CARRITO() </Card.Header>
                 <Card.Body>
-
+              
                 </Card.Body>
             </Card>
     </div>  
