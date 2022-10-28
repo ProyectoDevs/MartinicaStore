@@ -18,10 +18,10 @@ function App() {
 
       <div className='container container-fluid'>
         <Routes>
-            <Route path='/cart' element={<Cart />}/>
             <Route path="/" element={<Home />}/>
             <Route path="Home" element={<Home />}/>
             <Route path="/producto/:id" element={<ProductDetails />}/>
+            <Route path='/cart' element={<Cart />}/>
 
           </Routes>
         </div>

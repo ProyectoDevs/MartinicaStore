@@ -1,11 +1,11 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 
 const cart = () => {
   return (
-    <div>
+    <Fragment>
         <div className='cart1'>
             <h1 className='txt1'>TU COMPRA:</h1>
             <hr className='linea'/>
@@ -30,11 +30,11 @@ const cart = () => {
             <Card className='tarjeta'>
                 <Card.Header className='headerCart'>TU CARRITO() </Card.Header>
                 <Card.Body>
-              
+                    {/* insertar tabla */}
                 </Card.Body>
             </Card>
     </div>  
-    </div>
+    </Fragment>
   )
 }
 
