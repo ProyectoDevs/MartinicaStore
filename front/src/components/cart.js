@@ -5,7 +5,8 @@ import Card from 'react-bootstrap/Card';
 
 const cart = () => {
   return (
-    <Fragment>
+    <Fragment className="Prba">
+        <div class='container contaier-fluid'>
         <div className='cart1'>
             <h1 className='txt1'>TU COMPRA:</h1>
             <hr className='linea'/>
@@ -16,9 +17,7 @@ const cart = () => {
             <h1 className='txt'> Total:</h1>
             <hr className='linea'/>
 
-            <Button className='btnCompra' variant="primary" size="lg">
-                Finaliza Compra
-            </Button>{' '}
+            <button className='btn' id="login_btn"> Finalizar Compra</button>
         </div>
         
         <div className='cart2'> 
@@ -34,6 +33,10 @@ const cart = () => {
                 </Card.Body>
             </Card>
     </div>  
+        
+        </div> 
+        
+        
     </Fragment>
   )
 }

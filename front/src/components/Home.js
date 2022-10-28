@@ -42,6 +42,9 @@ export const Home = () => {
                                 <Link to={`/producto/${producto._id}`} id="view_btn" className="btn btn-block">
                                     Ver detalle
                                 </Link>
+                                <Link  id="view_btn" className="btn btn-block">
+                                    Agregar al carrito
+                                </Link>
                             </div>
                         </div>
                     </div>
