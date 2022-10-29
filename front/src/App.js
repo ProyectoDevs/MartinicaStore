@@ -8,7 +8,6 @@ import { ProductDetails } from './components/products/ProductDetails';
 import { BrowserRouter as Router, Route,  Routes } from 'react-router-dom';
 import { BrowserRouter as Switch } from 'react-router-dom';
 import Cart from './components/cart';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Dashboard from './components/admin/Dashboard';
 import ProductsList from './components/admin/ProductsList';
 import NewProduct from './components/admin/newProduct';
