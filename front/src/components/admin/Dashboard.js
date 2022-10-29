@@ -21,7 +21,7 @@ export const Dashboard =() => {
                                 <div className="col-xl-12 col-sm-12 mb-3">
                                     <div className="card text-white bg-primary o-hidden h-100">
                                         <div className="card-body">
-                                            <div className="text-center card-font-size">Monto Total<br /> <b>$4.000.000</b>
+                                            <div className="text-center card-font-size">Información Movimiento Inventarios<br /> 
                                             </div>
                                         </div>
                                     </div>
@@ -30,11 +30,11 @@ export const Dashboard =() => {
 
                             <div className="row pr-4">
                                 <div className="col-xl-3 col-sm-6 mb-3">
-                                    <div className="card text-black bg-light o-hidden h-100">
+                                    <div className="card text-white bg-info o-hidden h-100">
                                         <div className="card-body">
                                             <div className="text-center card-font-size">Productos<br /> <b>111</b></div>
                                         </div>
-                                        <Link className="card-footer text-black clearfix small z-1" to="/admin/products">
+                                        <Link className="card-footer text-white clearfix small z-1" to="/admin/products">
                                             <span className="float-left">Ver Detalles</span>
                                             <span className="float-right">
                                                 <i className="fa fa-angle-right"></i>
@@ -60,11 +60,11 @@ export const Dashboard =() => {
 
 
                                 <div className="col-xl-3 col-sm-6 mb-3">
-                                    <div className="card text-white bg-info o-hidden h-100">
+                                    <div className="card text-black bg-light o-hidden h-100">
                                         <div className="card-body">
                                             <div className="text-center card-font-size">Usuarios<br /> <b>42</b></div>
                                         </div>
-                                        <Link className="card-footer text-white clearfix small z-1" to="/admin/users">
+                                        <Link className="card-footer text-black clearfix small z-1" to="/admin/users">
                                             <span className="float-left">Ver Detalles</span>
                                             <span className="float-right">
                                                 <i className="fa fa-angle-right"></i>
