@@ -8,7 +8,10 @@ import { ProductDetails } from './components/products/ProductDetails';
 import { BrowserRouter as Router, Route,  Routes } from 'react-router-dom';
 import { BrowserRouter as Switch } from 'react-router-dom';
 import Cart from './components/cart';
-
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Dashboard from './components/admin/Dashboard';
+import ProductsList from './components/admin/ProductsList';
+import NewProduct from './components/admin/newProduct';
 
 function App() {
   return (
@@ -23,6 +26,9 @@ function App() {
             <Route path="/producto/:id" element={<ProductDetails />}/>
             <Route path='/cart' element={<Cart />}/>
 
+            <Route path="/dashboard" element={<Dashboard/>}/>
+            <Route path="/productList" element={<ProductsList />}/>
+            <Route path="/nuevoProducto" element={<NewProduct />}/>
           </Routes>
         </div>
       <Footer/>
