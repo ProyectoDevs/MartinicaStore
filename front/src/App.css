@@ -70,6 +70,9 @@ nav {
 #products_heading {
   margin-top: 1.8rem;
 }
+.btn{
+  margin-right: 20%;
+}
 
 .card {
   height: 100%;
@@ -278,6 +281,58 @@ footer {
 .plus,
 .minus {
   padding: 0.1rem 0.5rem;
+}
+
+.cart1{
+  color:#e3e3e3;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #609F81;
+  margin-top: 5%;
+  margin-left: 60%;
+  margin-right: -5%;
+  border-radius: 2px;
+  padding: 3%;
+}
+.cart2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-right: 45%;
+  margin-left: -5%;
+
+}
+.headerCart{
+  font-size: 160%;
+
+}
+.headerCart1{
+  font-size: 180%;
+  color: #fcb155;
+}
+.tarjeta1{
+  position: relative ;
+  margin-top: -56%;
+
+  margin-block-end: 5%;
+  
+}
+.tarjeta{
+  position: relative ;
+
+  margin-top: 5%;
+
+}
+.linea{
+  background-color: #e3e3e3;
+}
+.txt{
+  font-size: 150%;
+}
+.txt1{
+  font-size: 200%;
+  font-weight: bold;
+}
+.btnCompra{
+  background-color: #fcb155;
+  border-color: #e3e3e3;
 }
 
 .stockCounter input::-webkit-outer-spin-button,
@@ -614,6 +669,7 @@ ul.CTAs a {
   font-size: 0.8rem;
   color: grey;
 }
+
 .imagen_producto{
   padding: 5%;
 }
